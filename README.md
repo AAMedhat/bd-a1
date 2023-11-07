@@ -1,7 +1,7 @@
 # bd-a1
 ASSIGNMENT REQUIREMENTS:
 - Start by creating a directory on your local machine named bd-a1/.
-- Download and place the dataset in the bd-a1/ directory .
+- Download and place the dataset in the bd-a1/ directory.
 - Inside the bd-a1/ directory, create a Dockerfile.
 - Specify the base image as Ubuntu. 
 - Install the following packages in the Dockerfile: Python3, Pandas, Numpy,
@@ -9,14 +9,13 @@ Seaborn, Matplotlib, scikit-learn, and Scipy. [
 - Create a directory inside the container at /home/doc-bd-a1/.
 - Move the dataset file to the container.
 - Open the bash shell upon container startup. 
-- Note: Install any additional modules or libraries you anticipate needing within the
+So that you know, install any additional modules or libraries within the
 container.
 - Within the container's doc-bd-a1/ directory, create the following files:
 - load.py: Design this file to dynamically read the dataset file by accepting the file
 path as a user-provided argument.
 - dpre.py: This file should perform Data Cleaning, Data Transformation, Data
-Reduction, and Data Discretization steps. In each step apply minimum 2 tasks.
-Nile University | Fall 2023 | CSCI461 Introduction to Big Data
+Reduction, and Data Discretization steps. In each step apply a minimum of 2 tasks.
 Save the resulting data frame as a new CSV file named res_dpre.csv. 
 - eda.py: Conduct exploratory data analysis, generating at least 3 insights without
 visualizations. Save these insights as text files named eda-in-1.txt, and so on.
